@@ -1,0 +1,379 @@
+body {
+  background-image: url(/src/NZA_law_background.jpg);
+  background-color: white;
+  font: arial;
+}
+
+.main-box {
+  position: relative;
+  width: 1331px;
+  height: 1090px;
+  margin: 240px auto;
+  background-color: white;
+}
+
+.main-contact-us-box {
+  position: relative;
+  width: 1331px;
+  height: 896px;
+  margin: 240px auto;
+  background-color: white;
+}
+
+.login-box {
+  position: absolute;
+  margin-left: 1181px;
+  line-height: 46px;
+  width: 77px;
+  height: 45px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.login-box p {
+  color: white;
+  text-align: center;
+}
+.logo-wrapper {
+  width: 372px;
+  height: 90px;
+}
+
+.logo-wrapper img {
+  position: relative;
+  width: 100%;
+  margin-left: 80px;
+  margin-top: 75px;
+}
+
+.navbar {
+  display: table;
+  width: 1181px;
+  margin-top: 19px;
+  margin-left: 17%;
+  margin-right: 25%;
+  background-color: yellow;
+}
+
+.navbar ul {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: center;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+
+.navbar li {
+  list-style-type: none;
+  
+}
+
+.navbar li a {
+  color: black;
+}
+
+.navbar-item {
+  padding: 16px 0;
+  width: 100%;
+}
+
+.navbar-item-content {
+  border-left: 1px lightgrey solid;
+  text-align: center;
+}
+
+.navbar-item-content-first {
+  text-align: center;
+  border-left: none;
+}
+.grid-container {
+  margin-top: 190px;
+  width: 1196px;
+  height: 506px;
+  margin-left: 5.5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 286px 400px 143px 286px;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 14px;
+  grid-template-areas:
+    "left-sidebar telephone-pic telephone-pic right-sidebar"
+    "left-sidebar contact-text contact-text right-sidebar";
+}
+
+.left-sidebar {
+  grid-area: left-sidebar;
+}
+
+.telephone-pic {
+  grid-area: telephone-pic;
+}
+
+.contact-text {
+  grid-area: contact-text;
+}
+
+.right-sidebar {
+  grid-area: right-sidebar;
+}
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  /*border: 1px solid red;*/
+  position: relative;
+}
+
+.left-sidebar {
+  position: relative;
+  width: 286px;
+  height: 431px;
+  background-color: red;
+  background-image: linear-gradient(brown, #772f27);
+}
+
+.left-sidebar h4 {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.left-sidebar li {
+  color: white;
+  list-style-type: none;
+}
+
+.left-sidebar li a {
+  color: white;
+}
+
+.left-sidebar a {
+  color: white;
+}
+
+.left-sidebar strong {
+  margin-left: 7.8%;
+}
+
+.left-sidebar p {
+  color: white;
+  padding-left: 12px;
+  margin-left: 4%;
+}
+
+.left-sidebar-img-container {
+  margin-left: 7.7%;
+}
+
+.left-sidebar img {
+  margin-left: 0.5%;
+  margin-bottom: 5%;
+  border: 1px solid white;
+}
+
+.telephone-pic img {
+  border-style: double;
+  border-width: 10px;
+  position: relative;
+  border-color: black;
+}
+.right-sidebar {
+  position: relative;
+  width: 288px;
+  height: 460px;
+  background-color: white;
+  background-image: linear-gradient(#ded7d1, #d6cec5);
+  margin-right: 70px;
+}
+
+.right-sidebar strong {
+  margin-left: 8%;
+  color: #7e302d;
+}
+
+.right-sidebar p {
+  margin-left: 8%;
+  margin-top: 0.5%;
+}
+
+.map-pic img {
+  border: 2px solid black;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.group-pic img {
+  border: 3px solid black;
+  margin-bottom: 3%;
+}
+hr {
+  border: 1px solid black;
+  margin-right: 7%;
+  margin-left: 6%;
+}
+
+.footer-navbar {
+  display: table;
+  width: 1181px;
+  margin-top: 19px;
+  margin-left: 4%;
+}
+
+.footer-navbar ul {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.footer-navbar li {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer-navbar li a {
+  color: black;
+}
+
+.footer-navbar-item-content {
+  list-style-type: none;
+}
+
+.footer-span {
+  display: flex;
+  color: lightgray;
+  justify-content: space-around;
+}
+
+/* Eddie's section */
+.login {
+  color: white;
+  background: lightgray;
+}
+
+.logo-image {
+  padding: 10px;
+}
+
+.top-portion {
+  padding: 10px;
+}
+
+.gradient-style {
+  background: red;
+  background-image: linear-gradient(to bottom, brown, #772f27);
+}
+
+.white-background {
+  color: white;
+  padding-left: 23px;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.divider {
+  background-color: white;
+}
+
+.forest-border {
+  margin: auto;
+  border: double;
+  padding: 5px;
+}
+
+.image-text {
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+
+.scroll-box-text {
+  overflow-y: scroll;
+  width: 250px;
+  height: 583px;
+  margin: 0 auto;
+}
+
+.bottom-text {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.top-nav-borders {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.nav-bar-top-text li a {
+  color: black;
+}
+
+.nav-bar-top-text {
+  color: black;
+  list-style: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  margin-bottom: -1.4em;
+}
+.nav-bar-top-text:after {
+  color: black;
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.nav-bar-top-text-justify {
+  color: black;
+  display: inline-block;
+}
+
+.bottom-divider {
+  background-color: black;
+}
+
+.list-bullet-removed {
+  list-style-type: none;
+}
+
+.leather-chair-border {
+  border: double;
+}
+
+.large-pic-border {
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: double;
+  padding: 5px;
+}
+
+.text-in-image {
+  color: lightgray;
+  position: absolute;
+  bottom: 25px;
+  left: 50px;
+}
+
+.white-underline {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+/* Josh's Section */
