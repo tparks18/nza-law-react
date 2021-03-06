@@ -10,6 +10,8 @@ body {
   height: 1090px;
   margin: 240px auto;
   background-color: white;
+  top: 0;
+  z-index: 1;
 }
 
 .main-contact-us-box {
@@ -48,12 +50,14 @@ body {
 }
 
 .navbar {
+  position: absolute;
   display: table;
   width: 1181px;
-  margin-top: 19px;
+  top: 0;
   margin-left: 17%;
   margin-right: 25%;
   background-color: yellow;
+  z-index: 1;
 }
 
 .navbar ul {
@@ -68,7 +72,6 @@ body {
 
 .navbar li {
   list-style-type: none;
-  
 }
 
 .navbar li a {
@@ -93,7 +96,7 @@ body {
   margin-top: 190px;
   width: 1196px;
   height: 506px;
-  margin-left: 5.5%;
+  margin-left: 14.5%;
 }
 
 .grid-container {
@@ -111,7 +114,11 @@ body {
 }
 
 .telephone-pic {
+  position: relative;
   grid-area: telephone-pic;
+  margin-right: 150px;
+  width: 542px;
+  height: 148px;
 }
 
 .contact-text {
@@ -122,9 +129,7 @@ body {
   grid-area: right-sidebar;
 }
 
-/* For presentation only, no need to copy the code below */
 .grid-container * {
-  /*border: 1px solid red;*/
   position: relative;
 }
 
@@ -170,6 +175,17 @@ body {
 
 .left-sidebar-img-container {
   margin-left: 7.7%;
+  margin-top: -20%;
+  margin-bottom: 10px;
+  width: 240px;
+  height: 143px;
+}
+
+.stacked-newspapers {
+  width: 238px;
+  height: 143px;
+  display: block;
+  z-index: 1;
 }
 
 .left-sidebar img {
@@ -177,13 +193,23 @@ body {
   margin-bottom: 5%;
   border: 1px solid white;
 }
-
+.telephone-pic {
+  background-color: purple;
+  position: relative;
+}
 .telephone-pic img {
   border-style: double;
   border-width: 10px;
-  position: relative;
   border-color: black;
+ 
 }
+
+.telephone {
+  display: block;
+  position: relative;
+
+}
+
 .right-sidebar {
   position: relative;
   width: 288px;
@@ -191,6 +217,7 @@ body {
   background-color: white;
   background-image: linear-gradient(#ded7d1, #d6cec5);
   margin-right: 70px;
+  margin-left: 70px;
 }
 
 .right-sidebar strong {

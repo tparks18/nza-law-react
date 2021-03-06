@@ -1,24 +1,46 @@
+import React, {Component} from 'react'
 import './App.css';
-// import { Route, Switch } from 'react-router-dom';
-import Home from './views/Home/Home';
-// import Contact from './views/Contact/Contact'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Contact from './views/Contact/index.';
+import Home from './views/Home';
+import WhatWeDo from './views/WhatWeDo';
+import WhereWeWork from './views/WhereWeWork';
+import { Route, Switch } from 'react-router-dom';
 
-function App() {
-  return (
-    <div>
-    <Home />
-    {/* <main className="container">
+export default class App extends Component {
+  constructor() {
+    super();
+    console.log("Component Constructed");
+  }
 
-          <Switch>
-            <Route exact path='/' render={() => <Home />} />
-            <Route path='/contact' render={() => <Contact />} />
-            <Route exact path='/where' render={() => <Where />} />
-          </Switch>
+  render() {
+    console.log("Component rendered");
 
-        </main> */}
+    return (
+      <div>
+        <header>
+        <Navbar />
+        </header>
+      <main className = "component-container">
+      <Switch>
+        <Route exact path='/' render={() => <Home />} />
+        <Route exact path='/contact' render={() => <Contact />} />
+        <Route exact path='/wherewework' render={() => <WhereWeWork />} />
+        <Route exact path='/whatwedo' render={() => <WhatWeDo />} />
+       
+      </Switch>
+      </main>
 
-    </div>
-  );
+      <footer>
+        <Footer />
+
+      </footer>
+      </div>
+    )
+  }
+  componentDidMount() { 
+  console.log("component mounted");
+}
 }
 
-export default App;
