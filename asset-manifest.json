@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/nza-law-react/static/css/main.6829833e.chunk.css",
+    "main.js": "/nza-law-react/static/js/main.21e12673.chunk.js",
+    "main.js.map": "/nza-law-react/static/js/main.21e12673.chunk.js.map",
+    "runtime-main.js": "/nza-law-react/static/js/runtime-main.e7c5805c.js",
+    "runtime-main.js.map": "/nza-law-react/static/js/runtime-main.e7c5805c.js.map",
+    "static/js/2.a16b4099.chunk.js": "/nza-law-react/static/js/2.a16b4099.chunk.js",
+    "static/js/2.a16b4099.chunk.js.map": "/nza-law-react/static/js/2.a16b4099.chunk.js.map",
+    "static/js/3.7eb190aa.chunk.js": "/nza-law-react/static/js/3.7eb190aa.chunk.js",
+    "static/js/3.7eb190aa.chunk.js.map": "/nza-law-react/static/js/3.7eb190aa.chunk.js.map",
+    "index.html": "/nza-law-react/index.html",
+    "static/css/main.6829833e.chunk.css.map": "/nza-law-react/static/css/main.6829833e.chunk.css.map",
+    "static/js/2.a16b4099.chunk.js.LICENSE.txt": "/nza-law-react/static/js/2.a16b4099.chunk.js.LICENSE.txt",
+    "static/media/Law_office.872456f5.jpg": "/nza-law-react/static/media/Law_office.872456f5.jpg",
+    "static/media/App.css": "/nza-law-react/static/media/NZA_law_background.860aa630.jpg",
+    "static/media/business.cec580f4.jpeg": "/nza-law-react/static/media/business.cec580f4.jpeg",
+    "static/media/forest.d4d0816a.jpeg": "/nza-law-react/static/media/forest.d4d0816a.jpeg",
+    "static/media/group-of-lawyers.151ddea1.png": "/nza-law-react/static/media/group-of-lawyers.151ddea1.png",
+    "static/media/leather_chairs.ce760b71.jpeg": "/nza-law-react/static/media/leather_chairs.ce760b71.jpeg",
+    "static/media/litigation.f47ae1af.jpeg": "/nza-law-react/static/media/litigation.f47ae1af.jpeg",
+    "static/media/sharpened_nza_logo.17c88b9a.jpg": "/nza-law-react/static/media/sharpened_nza_logo.17c88b9a.jpg",
+    "static/media/subrogation.567de858.jpeg": "/nza-law-react/static/media/subrogation.567de858.jpeg",
+    "static/media/telephone-banner-2.9cb624d6.jpg": "/nza-law-react/static/media/telephone-banner-2.9cb624d6.jpg",
+    "static/media/transportation.36081c24.jpeg": "/nza-law-react/static/media/transportation.36081c24.jpeg",
+    "static/media/unsplash-map.ff34fdbb.png": "/nza-law-react/static/media/unsplash-map.ff34fdbb.png",
+    "static/media/unsplash-newspaper-stack.e11caae1.png": "/nza-law-react/static/media/unsplash-newspaper-stack.e11caae1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7c5805c.js",
+    "static/js/2.a16b4099.chunk.js",
+    "static/css/main.6829833e.chunk.css",
+    "static/js/main.21e12673.chunk.js"
+  ]
+}
