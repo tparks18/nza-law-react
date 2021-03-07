@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
-// import "bootstrap/dist/css/bootstrap.css";
+import Footer from "../Footer"
+
 
 export default class Page extends Component {
   render() {
@@ -8,12 +9,11 @@ export default class Page extends Component {
 
     return (
       <div>
-          
-          <div className="main-box">
-
-            <Navbar />
-            {children}
-          </div>
+        <div className="main-box">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </div>
     );
   }

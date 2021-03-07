@@ -1,12 +1,11 @@
 import React, {Component} from 'react'
 import './App.css';
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import Contact from './views/Contact/index.';
 import Home from './views/Home';
 import WhatWeDo from './views/WhatWeDo';
 import WhereWeWork from './views/WhereWeWork';
 import { Route, Switch } from 'react-router-dom';
+// import Footer from '../src/components/Footer'
 
 export default class App extends Component {
   constructor() {
@@ -28,9 +27,8 @@ export default class App extends Component {
         <Route exact path='/whatwedo' render={() => <WhatWeDo />} />
        
       </Switch>
-      <Footer />
       </main>
-        
+
       
       </div>
     )
