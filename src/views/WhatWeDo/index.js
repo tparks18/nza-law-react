@@ -12,7 +12,7 @@ export default class WhatWeDo extends Component {
   render() {
     return (
         <Page>
-          <div className="main-box">
+          <div className="main-whatwedo-content">
             <main>
               <div className="container">
                 <div className="row">

@@ -5,13 +5,11 @@ import forest from "../Home/forest.jpeg"
 export default function Home() {
   return (
     <Page>
-      <main>
-        <br />
-        <br />
+      <main className="Home">
         <div className="container top-portion">
           <div className="row">
             <div className="col-9 forest-border">
-              <img className="img-fluid" src={forest} alt="Forest" />
+              <img className="img-fluid space" src={forest} alt="Forest" />
               <div className="image-text">
                 <h4>
                   <u>FORWARD THINKING</u>

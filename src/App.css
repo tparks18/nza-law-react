@@ -15,9 +15,8 @@ body {
 .main-contact-us-box {
   position: relative;
   width: 1331px;
-  height: 896px;
-  margin: 240px auto;
-  background-color: white;
+  height: 470px;
+
 }
 
 .login-box {
@@ -36,10 +35,10 @@ body {
   text-align: center;
 }
 .logo-wrapper {
+ 
   width: 372px;
   height: 90px;
-  background-color:blue;
-  float: left;
+  margin-left: 90px;
  
 }
 
@@ -51,10 +50,10 @@ body {
 .navbar {
   display: table;
   width: 1181px;
-  margin-top: 19px;
-  margin-left: 17%;
+  margin-top: 20px;
+  margin-bottom: -80px;
+  margin-left: 5.2%;
   margin-right: 27%;
-  background-color: blue;
 }
 
 .navbar ul {
@@ -378,4 +377,15 @@ hr {
 
 .address-box {
   margin-left:11px;
+}
+
+.Home {
+  margin-top:70px;
+}
+.nav-and-logo-container {
+ padding-top: 70px;
+}
+
+.main-whatwedo-content {
+  margin-top: 90px;
 }
