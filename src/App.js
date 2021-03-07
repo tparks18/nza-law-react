@@ -19,10 +19,8 @@ export default class App extends Component {
 
     return (
       <div>
-        <header>
-        <Navbar />
-        </header>
       <main className = "component-container">
+    
       <Switch>
         <Route exact path='/' render={() => <Home />} />
         <Route exact path='/contact' render={() => <Contact />} />
@@ -30,12 +28,10 @@ export default class App extends Component {
         <Route exact path='/whatwedo' render={() => <WhatWeDo />} />
        
       </Switch>
+      <Footer />
       </main>
-
-      <footer>
-        <Footer />
-
-      </footer>
+        
+      
       </div>
     )
   }

@@ -10,8 +10,6 @@ body {
   height: 1090px;
   margin: 240px auto;
   background-color: white;
-  top: 0;
-  z-index: 1;
 }
 
 .main-contact-us-box {
@@ -47,25 +45,21 @@ body {
   width: 100%;
   margin-left: 80px;
   margin-top: 75px;
+  
 }
 
 .navbar {
-  position: absolute;
   display: table;
   width: 1181px;
-  top: 0;
+  margin-top: 19px;
   margin-left: 17%;
-  margin-right: 25%;
-  background-color: yellow;
-  z-index: 1;
+  margin-right: 27%;
 }
 
 .navbar ul {
-  background-color: orange;
   display: flex;
-  flex-direction: row;
   overflow: hidden;
-  justify-content: center;
+  justify-content: space-between;
   border-top: 2px black solid;
   border-bottom: 2px black solid;
 }
@@ -96,7 +90,7 @@ body {
   margin-top: 190px;
   width: 1196px;
   height: 506px;
-  margin-left: 14.5%;
+  margin-left: 5.5%;
 }
 
 .grid-container {
@@ -114,11 +108,7 @@ body {
 }
 
 .telephone-pic {
-  position: relative;
   grid-area: telephone-pic;
-  margin-right: 150px;
-  width: 542px;
-  height: 148px;
 }
 
 .contact-text {
@@ -129,7 +119,9 @@ body {
   grid-area: right-sidebar;
 }
 
+/* For presentation only, no need to copy the code below */
 .grid-container * {
+  /*border: 1px solid red;*/
   position: relative;
 }
 
@@ -175,17 +167,6 @@ body {
 
 .left-sidebar-img-container {
   margin-left: 7.7%;
-  margin-top: -20%;
-  margin-bottom: 10px;
-  width: 240px;
-  height: 143px;
-}
-
-.stacked-newspapers {
-  width: 238px;
-  height: 143px;
-  display: block;
-  z-index: 1;
 }
 
 .left-sidebar img {
@@ -193,23 +174,13 @@ body {
   margin-bottom: 5%;
   border: 1px solid white;
 }
-.telephone-pic {
-  background-color: purple;
-  position: relative;
-}
+
 .telephone-pic img {
   border-style: double;
   border-width: 10px;
-  border-color: black;
- 
-}
-
-.telephone {
-  display: block;
   position: relative;
-
+  border-color: black;
 }
-
 .right-sidebar {
   position: relative;
   width: 288px;
@@ -217,7 +188,6 @@ body {
   background-color: white;
   background-image: linear-gradient(#ded7d1, #d6cec5);
   margin-right: 70px;
-  margin-left: 70px;
 }
 
 .right-sidebar strong {
@@ -404,3 +374,4 @@ hr {
   padding: 10px;
 }
 /* Josh's Section */
+
