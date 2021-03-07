@@ -16,7 +16,8 @@ body {
   position: relative;
   width: 1331px;
   height: 470px;
-
+  margin-top: -160px;
+  margin-bottom: 100px;
 }
 
 .login-box {
@@ -113,6 +114,7 @@ body {
 
 .contact-text {
   grid-area: contact-text;
+  margin-top: 30px;
 }
 
 .right-sidebar {
@@ -388,4 +390,13 @@ hr {
 
 .main-whatwedo-content {
   margin-top: 90px;
+}
+
+.wherewework-content {
+  margin-top: 90px;
+}
+
+
+.firstTableCell {
+  width: 170px;
 }

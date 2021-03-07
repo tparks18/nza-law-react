@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import './App.css';
-// import "bootstrap/dist/css/bootstrap.css";
 import logo from "./sharpened_nza_logo.jpg";
 import lawOffice from "./Law_office.jpg";
 import Page from "../../components/Page";
@@ -9,15 +7,8 @@ export default class WhereWeWork extends Component {
   render() {
     return (
       <Page>
-        <div className="main-box">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <main>
+        <div className="wherewework-content">
+          <main className="wherewework-first-container">
             <div className="container">
               <div className="row">
                 <div className="col-md-3 law-office">
@@ -44,10 +35,9 @@ export default class WhereWeWork extends Component {
                       </p>
 
                       <table class="table">
-                        <caption></caption>
                         <thead>
                           <tr>
-                            <th scope="col"></th>
+                            <th scope="col" />
                             <th scope="col">United States</th>
                             <th scope="col"></th>
                             <th scope="col"></th>
@@ -57,7 +47,7 @@ export default class WhereWeWork extends Component {
                         <tbody>
                           <tr>
                             <th scope="row"></th>
-                            <td>State</td>
+                            <td className="firstTableCell">State</td>
                             <td>State</td>
                             <td>State</td>
                             <td>Canada</td>
@@ -82,43 +72,42 @@ export default class WhereWeWork extends Component {
                             <td>State</td>
                             <td>State</td>
                             <td>Nicaragua</td>
-                            <tr>
-                              <th scope="row"></th>
-                              <td>State</td>
-                              <td>State</td>
-                              <td>State</td>
-                              <tr>
-                                <th scope="row"></th>
-                                <td>State</td>
-                                <td>State</td>
-                                <td>State</td>
-                                <tr>
-                                  <th scope="row"></th>
-                                  <td>State</td>
-                                  <td>State</td>
-                                  <tr>
-                                    <th scope="row"></th>
-                                    <td>State</td>
-                                    <td>State</td>
-                                    <tr>
-                                      <th scope="row"></th>
-                                      <td>State</td>
-                                      <td>State</td>
-                                      <tr>
-                                        <th scope="row"></th>
-                                        <td>State</td>
-                                        <td>State</td>
-                                        <tr>
-                                          <th scope="row"></th>
-                                          <td>State</td>
-                                          <td>State</td>
-                                        </tr>
-                                      </tr>
-                                    </tr>
-                                  </tr>
-                                </tr>
-                              </tr>
-                            </tr>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
+                            <td>State</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>State</td>
+                            <td>State</td>
                           </tr>
                         </tbody>
                       </table>
@@ -127,9 +116,9 @@ export default class WhereWeWork extends Component {
                 </div>
               </div>
             </div>
-            <div class="row"></div>
           </main>
         </div>
+        <hr />
       </Page>
     );
   }
