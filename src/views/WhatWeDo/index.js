@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import Page from "../../components/Page";
 // import './App.css';
-// import "bootstrap/dist/css/bootstrap.css";
 import logo from "./sharpened_nza_logo.jpg";
 import leatherChairs from "./leather_chairs.jpeg";
 import subrogation from "./subrogation.jpeg";
@@ -11,31 +11,13 @@ import business from "./business.jpeg";
 export default class WhatWeDo extends Component {
   render() {
     return (
-      <div>
-        <body>
+        <Page>
           <div className="main-box">
-            <div className="login-box">
-              <p>Login</p>
-            </div>
-            <div className="logo-wrapper">
-              <img src={logo} alt="NZA Law Logo" />
-              <br />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <main>
-              <br />
-
               <div className="container">
                 <div className="row">
                   <div className="col-3 gradient-style white-background">
                     <h6 className="white-underline">WHAT WE DO</h6>
-
                     <ul className="list-bullet-removed">
                       <li>
                         Subrogation
@@ -167,13 +149,8 @@ export default class WhatWeDo extends Component {
                 </div>
               </div>
             </main>
-
-            <hr />
-
-            {/* footer */}
-          </div>
-        </body>
-      </div>
+            </div>
+      </Page>
     );
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import Page from "../../components/Page";
 // import './App.css';
 // import "bootstrap/dist/css/bootstrap.css";
-import logo from "./sharpened_nza_logo.jpg";
 import stackedNewspapers from "./unsplash-newspaper-stack.png";
 import telephoneBanner from "./telephone-banner-2.jpg";
 import map from "./unsplash-map.png";
@@ -10,14 +10,8 @@ import groupOfLawyers from "./group-of-lawyers.png";
 export default class Contact extends Component {
   render() {
     return (
-      <div>
-        <body>
+        <Page>
           <div class="main-contact-us-box">
-            <div class="login-box">
-              <p>Login</p>
-            </div>
-            <div class="logo-wrapper">
-              <img src={logo} alt="NZA Law Logo" />
 
               {/* <!-- Contact Us Container -->        */}
               <div class="grid-container">
@@ -104,10 +98,8 @@ export default class Contact extends Component {
                 </div>
               </div>
             </div>
-          </div>
           <hr />
-        </body>
-      </div>
+        </Page>
     );
   }
 }

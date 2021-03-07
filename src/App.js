@@ -5,7 +5,6 @@ import Home from './views/Home';
 import WhatWeDo from './views/WhatWeDo';
 import WhereWeWork from './views/WhereWeWork';
 import { Route, Switch } from 'react-router-dom';
-// import Footer from '../src/components/Footer'
 
 export default class App extends Component {
   constructor() {

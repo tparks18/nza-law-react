@@ -6,6 +6,8 @@ export default function Home() {
   return (
     <Page>
       <main>
+        <br />
+        <br />
         <div className="container top-portion">
           <div className="row">
             <div className="col-9 forest-border">
@@ -79,7 +81,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-3">
-                <div>
+                <div className="address-box">
                   <p>
                     <b>Bigshot, Zoo, &amp; Adds, P.C.</b>
                     <br />
@@ -97,8 +99,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      </Page>
-
+    </Page>
   );
 }
 
