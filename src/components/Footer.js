@@ -13,7 +13,7 @@ export default class Footer extends Component {
           </li>
           <span className="footer-span">—</span>
           <li className="footer-navbar-item">
-            <Link to="/">
+            <Link to="/whatwedo">
               <div className="footer-navbar-item-content">WHAT WE DO</div>
             </Link>
           </li>
